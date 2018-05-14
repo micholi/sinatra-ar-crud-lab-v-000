@@ -4,6 +4,8 @@
     <title></title>
   </head>
   <body>
+    <h1><%= post.name %></h1>
+    <h4><%= post.content %></h4>
     <form method="post" action="/posts/:id/delete">
       <input id="hidden" type="hidden" name="_method" value="DELETE">
       <input type="submit" value="delete">
