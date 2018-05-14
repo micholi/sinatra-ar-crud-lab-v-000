@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><Display Blog Post/title>
+    <title><Display Blog Post</title>
   </head>
   <body>
+    <h2>
     <p><%= @post.name %></p>
     <p><%= @post.content %></p>
     <form method="post" action="/posts/<%= @post.id %>/delete">
