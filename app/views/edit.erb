@@ -4,6 +4,9 @@
     <title></title>
   </head>
   <body>
-    <input id="hidden" type="hidden" name="_method" value="patch">
+    <form action="posts/<% @post.id %>" method="post">
+      <input id="hidden" type="hidden" name="_method" value="patch">
+      <input type="text"...>
+    </form>
   </body>
 </html>
